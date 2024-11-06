@@ -1,0 +1,61 @@
+					Ticket reservation software using react
+Features :
+	- login 
+	- select movies, shows , sports (Home Page)
+	- Seat selection page :
+		- show seats in grid layout
+		- show seats in different colours according to reservations
+		- user can select seats and  book it
+		- update seat in database
+	-edit seat configuration and venues (admin only)
+
+
+model design : 
+	seats :
+		- each OF Them have properties of :
+			id: Unique identifier for the seat.
+			status: Current status of the seat (e.g., 'available', 'reserved', 'selected').
+			type: Different classes or sections (e.g., 'regular', 'VIP') if needed.
+		- functions :
+			select seat to reserve and update in database
+types of users:
+	admin: 
+		- control the database and layouts
+		- can do update list of movies]
+		- also can update seat configurations
+	customer :
+		- login
+		- view movies list 
+		- book the seats
+		- check out
+
+
+
+
+----------------------------------Steps------------------------------------
+
+
+Home Page : 
+	- navbar 1
+	- banner 1
+	- category slider
+	- movie slider
+	- sports slider
+	- event slider
+	- footer
+login page: 
+	- checkLogin()
+	- signup :
+		- name
+		- age
+		- email
+		- password
+	- login :
+		- email
+		- password
+	- submit :
+		if signup :
+			- create new user
+		else :
+			- read credentials and match it 
+
