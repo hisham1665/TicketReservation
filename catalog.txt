@@ -21,7 +21,7 @@ model design :
 types of users:
 	admin: 
 		- control the database and layouts
-		- can do update list of movies]
+		- can do update list of movies
 		- also can update seat configurations
 	customer :
 		- login
